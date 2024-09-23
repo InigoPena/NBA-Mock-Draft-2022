@@ -1,0 +1,24 @@
+Clase Equipo:
+
+Define las caracteristicas y necesidades del equipo para el que se van a recomendar los jugadores. Los jugadores
+se recomenaran basandose en esos numeros.
+
+Clase Jugador(Interior/Exterior):
+
+Define las caracteristicas y los numeros de los jugadores en la temporda pasada. Las herencias definen la posicion
+del jugador, que sera util para decidir en que equipos encajan.
+
+Clase Draft:
+
+En esta clase se crea el draft, con un array de jugadres drafteables y otro con los jugadores recomendados.
+Aqui se encuentran los algoritmos principales, que ordenan el draft de jugador con mas valor (interfaz) a menos,
+limpia los jugadores que no son validos para el draft y crea la lista de jugadores recomendados.
+
+Clase main draft:
+
+La clase Main. Donde se crean los 15 jugadores que pueden ser draftedos, el equipo al que se le van a recomendar
+jugadores y el draft con su array de jugadores y jugadores recomendados.
+
+VentanaNBA:
+
+Para ejecutar la ventana principal y el resto de ventanas graficas.
